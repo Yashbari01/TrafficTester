@@ -25,7 +25,7 @@ Check out the live version:
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/Yashbari01/api-traffic-tester.git
+   git clone https://github.com/Yashbari01/TrafficTester.git
 
 2. Install dependencies:
    ```bash
