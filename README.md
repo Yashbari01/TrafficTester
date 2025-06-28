@@ -1,39 +1,72 @@
-# API Traffic Tester 🚀
+API Traffic Tester 🚀
 
-A web-based API load testing tool built with **React**, allowing you to simulate concurrent API requests and analyze response performance.
+A fullstack API load testing tool built with React (Frontend) and Express (Backend).
+It allows developers to simulate concurrent API traffic, test endpoint performance, and analyze response statistics.
 
-## 🔧 Features
+----------------------------------------
+FEATURES
+----------------------------------------
+- Send concurrent HTTP requests (GET, POST, PUT, DELETE)
+- Add custom headers (e.g., Authorization)
+- Control total requests and concurrency level
+- View live summary (success/failure count, min/max/avg time)
+- Download full result JSON
+- Fully responsive with dark mode support
 
-- ✅ Send concurrent HTTP requests (GET, POST, PUT, DELETE)
-- 📦 Customize payload, headers, total requests, and concurrency
-- 📊 View real-time test results and summary stats:
-  - Success vs Failed requests
-  - Min, Max, and Average response times
-- 💾 Download test results as JSON
-- 🌗 Fully responsive with dark mode support
+----------------------------------------
+PROJECT STRUCTURE
+----------------------------------------
+TrafficTester/
+├── frontend/             --> React frontend
+│   ├── public/
+│   └── src/
+│       └── App.js
+│       └── index.js
+│
+├── backend/             --> Express backend
+│   └── server.js
+│
+├── package.json        --> Root scripts
+├── package-lock.json
 
-## 🔗 Live Demo
+----------------------------------------
+LIVE DEMO
+----------------------------------------
+https://your-live-link.netlify.app
 
-Check out the live version:  
-[https://your-live-link.netlify.app](https://your-live-link.netlify.app)
+----------------------------------------
+GETTING STARTED
+----------------------------------------
 
-## 📸 Screenshots
-
-![Preview Screenshot](./screenshot.png)
-
-## 🚀 Getting Started
-
-1. Clone this repo:
-   ```bash
+1. Clone the repository:
    git clone https://github.com/Yashbari01/TrafficTester.git
+   cd TrafficTester
 
 2. Install dependencies:
-   ```bash
    npm install
+   cd backend && npm install
+   cd frontend && npm install
 
-3. Start the app:
-   ```bash
+3. Backend Start
+   npm run dev 
+
+4. Frontend Start
    npm start
 
-🧠 Author
+Note:
+Make sure your backend runs on http://localhost:5000
+You can change the backend URL in the frontend if needed.
+
+----------------------------------------
+AUTHOR
+----------------------------------------
+
 Developed by Yash Bari
+Portfolio: https://yashbariportfolio.netlify.app
+Live Projects: https://yashbariportfolio.netlify.app/project
+GitHub: https://github.com/Yashbari01
+
+----------------------------------------
+LICENSE
+----------------------------------------
+This project is licensed under the MIT License.
