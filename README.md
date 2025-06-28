@@ -36,7 +36,7 @@ TrafficTester/
 ----------------------------------------
 LIVE DEMO
 ----------------------------------------
-https://your-live-link.netlify.app
+https://api-traffic-tester.netlify.app
 
 ----------------------------------------
 GETTING STARTED
