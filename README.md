@@ -64,18 +64,23 @@ GETTING STARTED
    npm start
 ```
 
-Note:
-Make sure your backend runs on http://localhost:5000
-You can change the backend URL in the frontend if needed.
+Note:                  
+```
+Make sure your backend runs on http://localhost:5000                  
+```
+You can change the backend URL in the frontend if needed.                  
+```
 
 ----------------------------------------
 AUTHOR
 ----------------------------------------
 
-Developed by Yash Bari
+Developed by Yash Bari                  
+```
 Portfolio: https://yashbariportfolio.netlify.app
 Live Projects: https://yashbariportfolio.netlify.app/project
-GitHub: https://github.com/Yashbari01
+GitHub: https://github.com/Yashbari01                  
+```
 
 ----------------------------------------
 LICENSE
