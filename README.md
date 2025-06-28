@@ -42,19 +42,27 @@ GETTING STARTED
 ----------------------------------------
 
 1. Clone the repository:
+```
    git clone https://github.com/Yashbari01/TrafficTester.git
    cd TrafficTester
+```
 
 2. Install dependencies:
+```
    npm install
    cd backend && npm install
    cd frontend && npm install
+```
 
 3. Backend Start
+```
    npm run dev 
+```
 
 4. Frontend Start
+```
    npm start
+```
 
 Note:
 Make sure your backend runs on http://localhost:5000
