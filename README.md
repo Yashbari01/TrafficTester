@@ -16,6 +16,8 @@ FEATURES
 ----------------------------------------
 PROJECT STRUCTURE
 ----------------------------------------
+
+```
 TrafficTester/
 ├── frontend/             --> React frontend
 │   ├── public/
@@ -28,7 +30,8 @@ TrafficTester/
 │
 ├── package.json        --> Root scripts
 ├── package-lock.json
-
+                  
+```
 ----------------------------------------
 LIVE DEMO
 ----------------------------------------
